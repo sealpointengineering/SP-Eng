@@ -1,0 +1,61 @@
+.cta8-thq-container-elm {
+  gap: var(--dl-layout-space-oneandhalfunits);
+  display: flex;
+  align-self: stretch;
+  align-items: center;
+  justify-content: space-between;
+}
+ 
+.cta8-thq-content-elm {
+  gap: var(--dl-layout-space-oneandhalfunits);
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+ 
+.cta8-thq-actions-elm {
+  gap: var(--dl-layout-space-oneandhalfunits);
+  flex: 1;
+  display: flex;
+  align-items: flex-start;
+}
+ 
+.cta8-fragment1 {
+  display: contents;
+}
+ 
+.cta8-text5 {
+  display: inline-block;
+}
+ 
+.cta8-fragment2 {
+  display: contents;
+}
+ 
+.cta8-text6 {
+  display: inline-block;
+}
+ 
+.cta8-fragment3 {
+  display: contents;
+}
+ 
+.cta8-text7 {
+  display: inline-block;
+}
+ 
+.cta8-fragment4 {
+  display: contents;
+}
+ 
+.cta8-text8 {
+  display: inline-block;
+}
+ 
+@media(max-width: 991px) {
+  .cta8-thq-container-elm {
+    align-items: flex-start;
+    flex-direction: column;
+    justify-content: flex-end;
+  }
+}

@@ -1,0 +1,960 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Honorable Legal Porcupine</title>
+    <meta property="og:title" content="Honorable Legal Porcupine" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="utf-8" />
+    <meta property="twitter:card" content="summary_large_image" />
+
+    <style data-tag="reset-style-sheet">
+      html {  line-height: 1.15;}body {  margin: 0;}* {  box-sizing: border-box;  border-width: 0;  border-style: solid;  -webkit-font-smoothing: antialiased;}p,li,ul,pre,div,h1,h2,h3,h4,h5,h6,figure,blockquote,figcaption {  margin: 0;  padding: 0;}button {  background-color: transparent;}button,input,optgroup,select,textarea {  font-family: inherit;  font-size: 100%;  line-height: 1.15;  margin: 0;}button,select {  text-transform: none;}button,[type="button"],[type="reset"],[type="submit"] {  -webkit-appearance: button;  color: inherit;}button::-moz-focus-inner,[type="button"]::-moz-focus-inner,[type="reset"]::-moz-focus-inner,[type="submit"]::-moz-focus-inner {  border-style: none;  padding: 0;}button:-moz-focus,[type="button"]:-moz-focus,[type="reset"]:-moz-focus,[type="submit"]:-moz-focus {  outline: 1px dotted ButtonText;}a {  color: inherit;  text-decoration: inherit;}pre {  white-space: normal;}input {  padding: 2px 4px;}img {  display: block;}details {  display: block;  margin: 0;  padding: 0;}summary::-webkit-details-marker {  display: none;}[data-thq="accordion"] [data-thq="accordion-content"] {  max-height: 0;  overflow: hidden;  transition: max-height 0.3s ease-in-out;  padding: 0;}[data-thq="accordion"] details[data-thq="accordion-trigger"][open] + [data-thq="accordion-content"] {  max-height: 1000vh;}details[data-thq="accordion-trigger"][open] summary [data-thq="accordion-icon"] {  transform: rotate(180deg);}html { scroll-behavior: smooth  }
+    </style>
+    <style data-tag="default-style-sheet">
+      html {
+        font-family: Inter;
+        font-size: 1rem;
+      }
+
+      body {
+        font-weight: 400;
+        font-style:normal;
+        text-decoration: undefined;
+        text-transform: undefined;
+        letter-spacing: 0px;
+        line-height: 1.6;
+        color: var(--color-on-surface);
+        background: var(--color-surface);
+
+        fill: var(--color-on-surface);
+      }
+    </style>
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/animate.css@4.1.1/animate.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=STIX+Two+Text:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/@teleporthq/teleport-custom-scripts/dist/style.css"
+    />
+  </head>
+  <body>
+    <link rel="stylesheet" href="./style.css" />
+    <div>
+      <link href="./index.css" rel="stylesheet" />
+
+      <div class="home-container1">
+        <navigation-wrapper class="navigation-wrapper">
+          <!--Navigation component-->
+          <div class="navigation-container1">
+            <nav class="navigation-container">
+              <div class="navigation-content">
+                <a href="index.html">
+                  <div
+                    aria-label="SealPoint Engineering Home"
+                    class="navigation-brand"
+                  >
+                    <span class="section-title navigation-logo-text">
+                      SealPoint
+                    </span>
+                    <span class="navigation-logo-accent">Engineering</span>
+                  </div>
+                </a>
+                <div class="navigation-desktop-menu">
+                  <ul class="navigation-links">
+                    <li>
+                      <a href="index.html">
+                        <div class="navigation-link"><span>Home</span></div>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="services.html">
+                        <div class="navigation-link"><span>Services</span></div>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="about.html">
+                        <div class="navigation-link"><span>About</span></div>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="contact.html">
+                        <div class="navigation-link"><span>Contact</span></div>
+                      </a>
+                    </li>
+                    <li></li>
+                  </ul>
+                  <a href="contact.html">
+                    <div class="btn-sm btn btn-primary">
+                      <span>Request Consultation</span>
+                    </div>
+                  </a>
+                </div>
+                <button
+                  id="mobile-toggle"
+                  aria-label="Toggle navigation menu"
+                  aria-expanded="false"
+                  class="navigation-mobile-toggle"
+                >
+                  <svg
+                    width="24"
+                    xmlns="http://www.w3.org/2000/svg"
+                    height="24"
+                    viewBox="0 0 24 24"
+                    class="navigation-icon-open"
+                  >
+                    <path
+                      d="M4 6h16M4 12h16M4 18h16"
+                      fill="none"
+                      stroke="currentColor"
+                      stroke-width="2"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    ></path>
+                  </svg>
+                </button>
+              </div>
+            </nav>
+            <div id="mobile-overlay" class="navigation-mobile-overlay">
+              <div class="navigation-overlay-header">
+                <a href="index.html">
+                  <div
+                    aria-label="SealPoint Engineering Home"
+                    class="navigation-brand"
+                  >
+                    <span class="section-title navigation-logo-text">
+                      SealPoint
+                    </span>
+                  </div>
+                </a>
+                <button
+                  id="mobile-close"
+                  aria-label="Close navigation menu"
+                  class="navigation-mobile-close"
+                >
+                  <svg
+                    width="24"
+                    xmlns="http://www.w3.org/2000/svg"
+                    height="24"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      d="M18 6L6 18M6 6l12 12"
+                      fill="none"
+                      stroke="currentColor"
+                      stroke-width="2"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    ></path>
+                  </svg>
+                </button>
+              </div>
+              <div class="navigation-overlay-body">
+                <ul class="navigation-overlay-links">
+                  <li>
+                    <a href="index.html">
+                      <div class="navigation-overlay-link">
+                        <span>Home</span>
+                        <svg
+                          width="24"
+                          xmlns="http://www.w3.org/2000/svg"
+                          height="24"
+                          viewBox="0 0 24 24"
+                        >
+                          <path
+                            d="m9 18l6-6l-6-6"
+                            fill="none"
+                            stroke="currentColor"
+                            stroke-width="2"
+                            stroke-linecap="round"
+                            stroke-linejoin="round"
+                          ></path>
+                        </svg>
+                      </div>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="services.html">
+                      <div class="navigation-overlay-link">
+                        <span>Services</span>
+                        <svg
+                          width="24"
+                          xmlns="http://www.w3.org/2000/svg"
+                          height="24"
+                          viewBox="0 0 24 24"
+                        >
+                          <path
+                            d="m9 18l6-6l-6-6"
+                            fill="none"
+                            stroke="currentColor"
+                            stroke-width="2"
+                            stroke-linecap="round"
+                            stroke-linejoin="round"
+                          ></path>
+                        </svg>
+                      </div>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="about.html">
+                      <div class="navigation-overlay-link">
+                        <span>About</span>
+                        <svg
+                          width="24"
+                          xmlns="http://www.w3.org/2000/svg"
+                          height="24"
+                          viewBox="0 0 24 24"
+                        >
+                          <path
+                            d="m9 18l6-6l-6-6"
+                            fill="none"
+                            stroke="currentColor"
+                            stroke-width="2"
+                            stroke-linecap="round"
+                            stroke-linejoin="round"
+                          ></path>
+                        </svg>
+                      </div>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="contact.html">
+                      <div class="navigation-overlay-link">
+                        <span>Contact</span>
+                        <svg
+                          width="24"
+                          xmlns="http://www.w3.org/2000/svg"
+                          height="24"
+                          viewBox="0 0 24 24"
+                        >
+                          <path
+                            d="m9 18l6-6l-6-6"
+                            fill="none"
+                            stroke="currentColor"
+                            stroke-width="2"
+                            stroke-linecap="round"
+                            stroke-linejoin="round"
+                          ></path>
+                        </svg>
+                      </div>
+                    </a>
+                  </li>
+                  <li></li>
+                </ul>
+                <div class="navigation-overlay-footer">
+                  <a href="contact.html">
+                    <div class="btn-lg btn btn-primary">
+                      <span>Request Consultation</span>
+                    </div>
+                  </a>
+                  <p class="section-content">
+                    Professional engineering consulting across Canada.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="navigation-container2">
+              <div class="navigation-container3">
+                <script defer="" data-name="navigation-logic">
+                  document.addEventListener('DOMContentLoaded', function() {
+                    (function(){
+                      const mobileToggle = document.getElementById("mobile-toggle")
+                      const mobileClose = document.getElementById("mobile-close")
+                      const mobileOverlay = document.getElementById("mobile-overlay")
+
+                      function openMenu() {
+                        mobileOverlay.style.display = "flex"
+                        document.body.style.overflow = "hidden"
+                        mobileToggle.setAttribute("aria-expanded", "true")
+                      }
+
+                      function closeMenu() {
+                        mobileOverlay.style.display = "none"
+                        document.body.style.overflow = ""
+                        mobileToggle.setAttribute("aria-expanded", "false")
+                      }
+
+                      mobileToggle.addEventListener("click", openMenu)
+                      mobileClose.addEventListener("click", closeMenu)
+
+                      // Close menu if a link is clicked
+                      const overlayLinks = mobileOverlay.querySelectorAll(".navigation-overlay-link")
+                      overlayLinks.forEach((link) => {
+                        link.addEventListener("click", closeMenu)
+                      })
+
+                      // Close menu if window is resized beyond mobile breakpoint
+                      window.addEventListener("resize", () => {
+                        if (window.innerWidth > 767) {
+                          closeMenu()
+                        }
+                      })
+                    })()
+                  });
+                </script>
+              </div>
+            </div>
+          </div>
+        </navigation-wrapper>
+        <section class="hero-engineering">
+          <div class="hero-engineering-bg">
+            <img
+              alt="Industrial Refinery at Twilight"
+              src="https://images.pexels.com/photos/32399139/pexels-photo-32399139.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1500"
+              class="hero-engineering-img"
+            />
+            <div class="hero-engineering-overlay"></div>
+          </div>
+          <div class="hero-engineering-container">
+            <div class="hero-engineering-content">
+              <h1 class="hero-title">
+                Professional Engineering Authentication for Critical Industrial
+                Systems
+              </h1>
+              <p class="hero-subtitle">
+                SealPoint Engineering provides thorough technical review,
+                engineering authentication, and compliance-focused consulting
+                services across Canada.
+              </p>
+              <div class="hero-engineering-actions">
+                <a href="contact.html">
+                  <div class="home-thq-btn-elm1 btn-lg btn btn-primary">
+                    <span>Request Consultation</span>
+                  </div>
+                </a>
+                <a href="services.html">
+                  <div class="home-thq-btn-elm2 btn-lg btn btn-outline">
+                    <span>Explore Services</span>
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section id="services" class="services-snapshot">
+          <div class="services-snapshot-container">
+            <div class="services-snapshot-header">
+              <h2 class="section-title">Core Engineering Services</h2>
+              <p class="section-content">
+                Specialized technical expertise for industrial compliance and
+                system optimization.
+              </p>
+            </div>
+            <div class="services-snapshot-grid">
+              <div class="service-card">
+                <div class="service-card-icon">
+                  <svg
+                    width="24"
+                    xmlns="http://www.w3.org/2000/svg"
+                    height="24"
+                    viewBox="0 0 24 24"
+                  >
+                    <g
+                      fill="none"
+                      stroke="currentColor"
+                      stroke-width="2"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    >
+                      <path
+                        d="M20 13c0 5-3.5 7.5-7.66 8.95a1 1 0 0 1-.67-.01C7.5 20.5 4 18 4 13V6a1 1 0 0 1 1-1c2 0 4.5-1.2 6.24-2.72a1.17 1.17 0 0 1 1.52 0C14.51 3.81 17 5 19 5a1 1 0 0 1 1 1z"
+                      ></path>
+                      <path d="m9 12l2 2l4-4"></path>
+                    </g>
+                  </svg>
+                </div>
+                <h3 class="section-subtitle">Engineering Authentication</h3>
+                <p class="section-content">
+                  Professional stamping and validation of technical designs and
+                  reports.
+                </p>
+                <a href="services.html">
+                  <div class="home-thq-btn-elm3 btn-sm btn-link btn">
+                    <span>Learn More</span>
+                  </div>
+                </a>
+              </div>
+              <div class="service-card">
+                <div class="service-card-icon">
+                  <svg
+                    width="24"
+                    xmlns="http://www.w3.org/2000/svg"
+                    height="24"
+                    viewBox="0 0 24 24"
+                  >
+                    <g
+                      fill="none"
+                      stroke="currentColor"
+                      stroke-width="2"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    >
+                      <path
+                        d="M9.671 4.136a2.34 2.34 0 0 1 4.659 0a2.34 2.34 0 0 0 3.319 1.915a2.34 2.34 0 0 1 2.33 4.033a2.34 2.34 0 0 0 0 3.831a2.34 2.34 0 0 1-2.33 4.033a2.34 2.34 0 0 0-3.319 1.915a2.34 2.34 0 0 1-4.659 0a2.34 2.34 0 0 0-3.32-1.915a2.34 2.34 0 0 1-2.33-4.033a2.34 2.34 0 0 0 0-3.831A2.34 2.34 0 0 1 6.35 6.051a2.34 2.34 0 0 0 3.319-1.915"
+                      ></path>
+                      <circle r="3" cx="12" cy="12"></circle>
+                    </g>
+                  </svg>
+                </div>
+                <h3 class="section-subtitle">
+                  Pressure Equipment &amp; Piping
+                </h3>
+                <p class="section-content">
+                  Design, analysis, and compliance for high-pressure industrial
+                  systems.
+                </p>
+                <a href="services.html">
+                  <div class="home-thq-btn-elm4 btn-sm btn-link btn">
+                    <span>Learn More</span>
+                  </div>
+                </a>
+              </div>
+              <div class="service-card">
+                <div class="service-card-icon">
+                  <svg
+                    width="24"
+                    xmlns="http://www.w3.org/2000/svg"
+                    height="24"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      d="M19.5 14.25v-2.625a3.375 3.375 0 0 0-3.375-3.375h-1.5A1.125 1.125 0 0 1 13.5 7.125v-1.5a3.375 3.375 0 0 0-3.375-3.375H8.25m0 12.75h7.5m-7.5 3H12M10.5 2.25H5.625c-.621 0-1.125.504-1.125 1.125v17.25c0 .621.504 1.125 1.125 1.125h12.75c.621 0 1.125-.504 1.125-1.125V11.25a9 9 0 0 0-9-9"
+                      fill="none"
+                      stroke="currentColor"
+                      stroke-width="1.5"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    ></path>
+                  </svg>
+                </div>
+                <h3 class="section-subtitle">Compliance Support</h3>
+                <p class="section-content">
+                  Support for CRN applications, technical review, and regulatory
+                  compliance for pressure equipment and industrial systems
+                  across Canada.
+                </p>
+                <a href="services.html">
+                  <div class="home-thq-btn-elm5 btn-sm btn-link btn">
+                    <span>Learn More</span>
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="why-sealpoint">
+          <div class="why-sealpoint-container">
+            <div class="why-sealpoint-header">
+              <h2 class="section-title">The SealPoint Advantage</h2>
+            </div>
+            <div class="why-sealpoint-features">
+              <div class="feature-item">
+                <div class="feature-item-icon">
+                  <svg
+                    width="24"
+                    xmlns="http://www.w3.org/2000/svg"
+                    height="24"
+                    viewBox="0 0 24 24"
+                  >
+                    <g
+                      fill="none"
+                      stroke="currentColor"
+                      stroke-width="2"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    >
+                      <path
+                        d="M10.325 4.317c.426-1.756 2.924-1.756 3.35 0a1.724 1.724 0 0 0 2.573 1.066c1.543-.94 3.31.826 2.37 2.37a1.724 1.724 0 0 0 1.065 2.572c1.756.426 1.756 2.924 0 3.35a1.724 1.724 0 0 0-1.066 2.573c.94 1.543-.826 3.31-2.37 2.37a1.724 1.724 0 0 0-2.572 1.065c-.426 1.756-2.924 1.756-3.35 0a1.724 1.724 0 0 0-2.573-1.066c-1.543.94-3.31-.826-2.37-2.37a1.724 1.724 0 0 0-1.065-2.572c-1.756-.426-1.756-2.924 0-3.35a1.724 1.724 0 0 0 1.066-2.573c-.94-1.543.826-3.31 2.37-2.37c1 .608 2.296.07 2.572-1.065"
+                      ></path>
+                      <path d="M9 12a3 3 0 1 0 6 0a3 3 0 0 0-6 0"></path>
+                    </g>
+                  </svg>
+                </div>
+                <h3 class="section-subtitle">Technical Expertise</h3>
+                <p class="section-content">
+                  Deep domain knowledge across mechanical, pressure, and
+                  rotating systems.
+                </p>
+              </div>
+              <div class="feature-item">
+                <div class="feature-item-icon">
+                  <svg
+                    width="24"
+                    xmlns="http://www.w3.org/2000/svg"
+                    height="24"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      d="M20 13c0 5-3.5 7.5-7.66 8.95a1 1 0 0 1-.67-.01C7.5 20.5 4 18 4 13V6a1 1 0 0 1 1-1c2 0 4.5-1.2 6.24-2.72a1.17 1.17 0 0 1 1.52 0C14.51 3.81 17 5 19 5a1 1 0 0 1 1 1z"
+                      fill="none"
+                      stroke="currentColor"
+                      stroke-width="2"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    ></path>
+                  </svg>
+                </div>
+                <h3 class="section-subtitle">Compliance Focused</h3>
+                <p class="section-content">
+                  Strict adherence to Canadian engineering standards and
+                  provincial regulations.
+                </p>
+              </div>
+              <div class="feature-item">
+                <div class="feature-item-icon">
+                  <svg
+                    width="24"
+                    xmlns="http://www.w3.org/2000/svg"
+                    height="24"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      d="M20 6L9 17l-5-5"
+                      fill="none"
+                      stroke="currentColor"
+                      stroke-width="2"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    ></path>
+                  </svg>
+                </div>
+                <h3 class="section-subtitle">Practical Solutions</h3>
+                <p class="section-content">
+                  Fast response and engineering analysis designed for real-world
+                  application.
+                </p>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="trust-credentials">
+          <div class="trust-credentials-container">
+            <div class="trust-grid">
+              <div class="trust-stat">
+                <span class="stat-value">Multi-Province</span>
+                <span class="stat-label">Engineering Support</span>
+                <p class="section-content">
+                  Serving Alberta, Ontario, and British Columbia with full
+                  regulatory compliance.
+                </p>
+              </div>
+              <div class="trust-stat">
+                <span class="stat-value">Technical Precision</span>
+                <span class="stat-label">Industrial Systems</span>
+                <p class="section-content">
+                  Specialized focus on critical infrastructure and
+                  high-reliability equipment.
+                </p>
+              </div>
+              <div class="trust-stat">
+                <span class="stat-value">ASME / CSA / API</span>
+                <span class="stat-label">Standards Familiarity</span>
+                <p class="section-content">
+                  Expertise in global engineering standards for pressure and
+                  rotating systems.
+                </p>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="engagement-process">
+          <div class="engagement-process-container">
+            <div class="process-header">
+              <h2 class="section-title">Our Engagement Process</h2>
+            </div>
+            <div class="process-steps">
+              <div class="process-step">
+                <div class="step-number"><span>01</span></div>
+                <h3 class="section-subtitle">Consultation</h3>
+                <p class="section-content">
+                  Initial project scoping and technical requirement gathering.
+                </p>
+              </div>
+              <div class="process-step">
+                <div class="step-number"><span>02</span></div>
+                <h3 class="section-subtitle">Technical Review</h3>
+                <p class="section-content">
+                  In-depth assessment of existing data and system parameters.
+                </p>
+              </div>
+              <div class="process-step">
+                <div class="step-number"><span>03</span></div>
+                <h3 class="section-subtitle">Engineering Analysis</h3>
+                <p class="section-content">
+                  Rigorous evaluation and simulation of industrial solutions.
+                </p>
+              </div>
+              <div class="process-step">
+                <div class="step-number"><span>04</span></div>
+                <h3 class="section-subtitle">Final Deliverables</h3>
+                <p class="section-content">
+                  Authenticated documentation and technical recommendations.
+                </p>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="contact-cta">
+          <div class="contact-cta-bg">
+            <img
+              alt="Industrial Night Scene"
+              src="https://images.pexels.com/photos/10407689/pexels-photo-10407689.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1500"
+              class="cta-img"
+            />
+            <div class="contact-cta-overlay"></div>
+          </div>
+          <div class="contact-cta-container">
+            <div class="contact-cta-card">
+              <h2 class="section-title">
+                Need Engineering Support for Your Project?
+              </h2>
+              <p class="section-content">
+                Technical expertise. Professional communication. Reliable
+                engineering support for your critical industrial systems.
+              </p>
+              <div class="contact-cta-buttons">
+                <a href="contact.html">
+                  <div class="home-thq-btn-elm6 btn-lg btn-accent btn">
+                    <span>Contact Us</span>
+                  </div>
+                </a>
+                <a href="contact.html">
+                  <div class="home-thq-btn-elm7 btn-lg btn btn-primary">
+                    <span>Request Consultation</span>
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+        </section>
+        <div class="home-container2">
+          <div class="home-container3">
+            <script defer="" data-name="sealpoint-interactions">
+              document.addEventListener('DOMContentLoaded', function() {
+                (function(){
+                  // Simple reveal animations on scroll
+                  const observerOptions = {
+                    threshold: 0.1,
+                    rootMargin: "0px 0px -50px 0px",
+                  }
+
+                  const revealObserver = new IntersectionObserver((entries) => {
+                    entries.forEach((entry) => {
+                      if (entry.isIntersecting) {
+                        entry.target.style.opacity = "1"
+                        entry.target.style.transform = "translateY(0)"
+                        revealObserver.unobserve(entry.target)
+                      }
+                    })
+                  }, observerOptions)
+
+                  document.querySelectorAll(".service-card, .feature-item, .process-step, .trust-stat").forEach((el) => {
+                    el.style.opacity = "0"
+                    el.style.transform = "translateY(20px)"
+                    el.style.transition = "opacity 0.6s ease-out, transform 0.6s ease-out"
+                    revealObserver.observe(el)
+                  })
+
+                  // Parallax effect for hero image
+                  window.addEventListener("scroll", () => {
+                    const scrolled = window.pageYOffset
+                    const heroImg = document.querySelector(".hero-engineering-img")
+                    if (heroImg) {
+                      heroImg.style.transform = `translateY(${scrolled * 0.3}px)`
+                    }
+                  })
+                })()
+              });
+            </script>
+          </div>
+        </div>
+        <footer-wrapper class="footer-wrapper">
+          <!--Footer component-->
+          <div id="" class="footer-container1">
+            <footer class="footer-root">
+              <div class="footer-container">
+                <div class="footer-grid">
+                  <div class="footer-brand-column footer-column">
+                    <div class="footer-logo-wrapper">
+                      <span class="footer-logo-text">SealPoint</span>
+                      <span class="footer-logo-sub">Engineering</span>
+                    </div>
+                    <p class="section-content footer-description">
+                      Modern industrial engineering consulting focused on
+                      technical precision, regulatory compliance, and practical
+                      solutions for critical systems across Canada.
+                    </p>
+                    <div class="footer-credential-badge">
+                      <div class="footer-icon-box">
+                        <svg
+                          width="24"
+                          xmlns="http://www.w3.org/2000/svg"
+                          height="24"
+                          viewBox="0 0 24 24"
+                        >
+                          <g
+                            fill="none"
+                            stroke="currentColor"
+                            stroke-width="2"
+                            stroke-linecap="round"
+                            stroke-linejoin="round"
+                          >
+                            <path
+                              d="M20 13c0 5-3.5 7.5-7.66 8.95a1 1 0 0 1-.67-.01C7.5 20.5 4 18 4 13V6a1 1 0 0 1 1-1c2 0 4.5-1.2 6.24-2.72a1.17 1.17 0 0 1 1.52 0C14.51 3.81 17 5 19 5a1 1 0 0 1 1 1z"
+                            ></path>
+                            <path d="m9 12l2 2l4-4"></path>
+                          </g>
+                        </svg>
+                      </div>
+                      <span class="footer-credential-text">
+                        Professional Engineering Authenticated
+                      </span>
+                    </div>
+                  </div>
+                  <div class="footer-column">
+                    <h3 class="section-subtitle footer-heading">Quick Links</h3>
+                    <nav class="footer-nav">
+                      <a href="index.html">
+                        <div class="footer-link"><span>Home</span></div>
+                      </a>
+                      <a href="services.html">
+                        <div class="footer-link"><span>Services</span></div>
+                      </a>
+                      <a href="about.html">
+                        <div class="footer-link"><span>About Us</span></div>
+                      </a>
+                      <a href="contact.html">
+                        <div class="footer-link"><span>Contact</span></div>
+                      </a>
+                    </nav>
+                  </div>
+                  <div class="footer-column">
+                    <h3 class="section-subtitle footer-heading">
+                      Our Services
+                    </h3>
+                    <nav class="footer-nav">
+                      <a href="services.html">
+                        <div class="footer-link">
+                          <span>Engineering Authentication</span>
+                        </div>
+                      </a>
+                      <a href="services.html">
+                        <div class="footer-link">
+                          <span>Pressure Equipment &amp; Piping</span>
+                        </div>
+                      </a>
+                      <a href="services.html">
+                        <div class="footer-link">
+                          <span>Compressor &amp; Seal Systems</span>
+                        </div>
+                      </a>
+                      <a href="services.html">
+                        <div class="footer-link">
+                          <span>Instrumentation &amp; Controls</span>
+                        </div>
+                      </a>
+                      <a href="services.html">
+                        <div class="footer-link">
+                          <span>Technical Documentation</span>
+                        </div>
+                      </a>
+                    </nav>
+                  </div>
+                  <div class="footer-column">
+                    <h3 class="section-subtitle footer-heading">
+                      Contact Info
+                    </h3>
+                    <div class="footer-contact-list">
+                      <div class="footer-contact-item">
+                        <div class="footer-icon-box-sm">
+                          <svg
+                            width="24"
+                            xmlns="http://www.w3.org/2000/svg"
+                            height="24"
+                            viewBox="0 0 24 24"
+                          >
+                            <g
+                              fill="none"
+                              stroke="currentColor"
+                              stroke-width="2"
+                              stroke-linecap="round"
+                              stroke-linejoin="round"
+                            >
+                              <path
+                                d="M20 10c0 4.993-5.539 10.193-7.399 11.799a1 1 0 0 1-1.202 0C9.539 20.193 4 14.993 4 10a8 8 0 0 1 16 0"
+                              ></path>
+                              <circle r="3" cx="12" cy="10"></circle>
+                            </g>
+                          </svg>
+                        </div>
+                        <span class="footer-contact-text">
+                          Calgary, Alberta
+                        </span>
+                      </div>
+                      <div class="footer-contact-item">
+                        <div class="footer-icon-box-sm">
+                          <svg
+                            width="24"
+                            xmlns="http://www.w3.org/2000/svg"
+                            height="24"
+                            viewBox="0 0 24 24"
+                          >
+                            <path
+                              d="M13.832 16.568a1 1 0 0 0 1.213-.303l.355-.465A2 2 0 0 1 17 15h3a2 2 0 0 1 2 2v3a2 2 0 0 1-2 2A18 18 0 0 1 2 4a2 2 0 0 1 2-2h3a2 2 0 0 1 2 2v3a2 2 0 0 1-.8 1.6l-.468.351a1 1 0 0 0-.292 1.233a14 14 0 0 0 6.392 6.384"
+                              fill="none"
+                              stroke="currentColor"
+                              stroke-width="2"
+                              stroke-linecap="round"
+                              stroke-linejoin="round"
+                            ></path>
+                          </svg>
+                        </div>
+                        <a href="tel:+14035550123">
+                          <div class="footer-link-inline">
+                            <span>+1 (403) 605-1479</span>
+                          </div>
+                        </a>
+                      </div>
+                      <div class="footer-contact-item">
+                        <div class="footer-icon-box-sm">
+                          <svg
+                            width="24"
+                            xmlns="http://www.w3.org/2000/svg"
+                            height="24"
+                            viewBox="0 0 24 24"
+                          >
+                            <g
+                              fill="none"
+                              stroke="currentColor"
+                              stroke-width="2"
+                              stroke-linecap="round"
+                              stroke-linejoin="round"
+                            >
+                              <path
+                                d="m22 7l-8.991 5.727a2 2 0 0 1-2.009 0L2 7"
+                              ></path>
+                              <rect
+                                x="2"
+                                y="4"
+                                rx="2"
+                                width="20"
+                                height="16"
+                              ></rect>
+                            </g>
+                          </svg>
+                        </div>
+                        <a href="mailto:info@sealpointengineering.com?subject=">
+                          <div class="footer-link-inline">
+                            <span>info@sealpointengineering.com</span>
+                          </div>
+                        </a>
+                      </div>
+                    </div>
+                    <div class="footer-social-wrapper">
+                      <a href="#">
+                        <div aria-label="LinkedIn" class="footer-social-link">
+                          <svg
+                            width="24"
+                            xmlns="http://www.w3.org/2000/svg"
+                            height="24"
+                            viewBox="0 0 24 24"
+                          >
+                            <g
+                              fill="none"
+                              stroke="currentColor"
+                              stroke-width="2"
+                              stroke-linecap="round"
+                              stroke-linejoin="round"
+                            >
+                              <path
+                                d="M8 11v5m0-8v.01M12 16v-5m4 5v-3a2 2 0 1 0-4 0"
+                              ></path>
+                              <path
+                                d="M3 7a4 4 0 0 1 4-4h10a4 4 0 0 1 4 4v10a4 4 0 0 1-4 4H7a4 4 0 0 1-4-4z"
+                              ></path>
+                            </g>
+                          </svg>
+                        </div>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                <div class="footer-bottom">
+                  <div class="footer-bottom-flex">
+                    <p class="footer-copyright">
+                      &amp;copy; 2026 SealPoint Engineering. All rights
+                      reserved.
+                    </p>
+                    <div class="footer-service-areas">
+                      <span class="footer-area-tag">Serving AB</span>
+                      <span class="footer-area-tag">ON</span>
+                      <span class="footer-area-tag">BC</span>
+                    </div>
+                    <div class="footer-legal-links">
+                      <a href="#">
+                        <div class="footer-link-sm">
+                          <span>Privacy Policy</span>
+                        </div>
+                      </a>
+                      <a href="#">
+                        <div class="footer-link-sm">
+                          <span>Terms of Service</span>
+                        </div>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </footer>
+            <div class="footer-container2">
+              <div class="footer-container3">
+                <script defer="" data-name="footer-interactivity">
+                  document.addEventListener('DOMContentLoaded', function() {
+                    (function(){
+                      // Simple script to handle current year if needed or other minor footer logic
+                      const copyrightYear = document.querySelector(".footer-copyright")
+                      if (copyrightYear) {
+                        const currentYear = new Date().getFullYear()
+                        copyrightYear.innerHTML = `&copy; ${currentYear} SealPoint Engineering. All rights reserved.`
+                      }
+
+                      // Optional: Subtle scroll reveal for footer links
+                      const footerLinks = document.querySelectorAll(".footer-link")
+                      footerLinks.forEach((link, index) => {
+                        link.style.transitionDelay = `${index * 50}ms`
+                      })
+                    })()
+                  });
+                </script>
+              </div>
+            </div>
+          </div>
+        </footer-wrapper>
+      </div>
+      <link
+        rel="canonical"
+        href="https://honorable-legal-porcupine-rb8arq.teleporthq.site/"
+      />
+    </div>
+  </body>
+</html>

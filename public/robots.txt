@@ -1,0 +1,7 @@
+User-agent: Googlebot
+Disallow: /nogooglebot/
+
+User-agent: *
+Allow: /
+
+Sitemap: https://honorable-legal-porcupine-rb8arq.teleporthq.site/sitemap.xml
